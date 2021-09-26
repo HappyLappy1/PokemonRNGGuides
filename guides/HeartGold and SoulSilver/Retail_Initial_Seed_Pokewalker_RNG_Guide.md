@@ -2,7 +2,7 @@
 title: 'Initial Seed Pokewalker RNG Guide'
 description: 'A guide explaining the process of aiming for initial seeds for Pokewalker RNG, advancing IV and PID frames to aim for a specific spread, and to troubleshoot if an attempt fails. Essentially Parts 0-6 of the original gide without reseed info.'
 slug: 'retail-initial-seed-hgss-pokewalker'
-subCategory: 'Retail'
+subCategory: 'Pokewalker'
 ---
 
 ```
