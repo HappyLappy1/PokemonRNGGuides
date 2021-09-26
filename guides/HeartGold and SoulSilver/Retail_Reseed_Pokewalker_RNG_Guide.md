@@ -2,7 +2,7 @@
 title: 'Retail Pokewalker Reseed RNG Guide'
 description: 'A guide explaining the process of using Reseeds for Pokewalker RNG, and how the process is different from Initial seeding. Essentially Parts 0-6 of the original guide with only reseed info.'
 slug: 'retail-reseed-hgss-pokewalker'
-subCategory: 'Retail'
+subCategory: 'Pokewalker'
 ---
 
 ```
