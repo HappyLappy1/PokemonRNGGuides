@@ -127,4 +127,30 @@ After you adjust, try it again, and again, and again, until you feel confident t
 There isn't much different for reseeds in the main RNG specifically, but keeping track of the number of pokemon you catch, minimizing the possibility for a connection error, and keeping your DS in a safe place are still good habits to keep for an extended RNG like this. Other than that though, good luck on your RNG, and if you need it, Part 5 will be here if you need it. 
 ### Part 5: Troubleshooting
 Welp, if you're reading this, there was a mistake of some sort, and you missed your mon. If your target IVs aren't right, your first step is still to compare the IVs of pokemon 1 to frame 4 of the reseed, then check to see if you had a pokemon too many or a pokemon too few. One of your fodder pokemon might have the IVs you wanted.
-As for nature, you have little other choice than to assume you hit the right initial seed, because it would be slow and painful to narrow down what you did hit if you missed. Just like you would for initial seeds, 
+As for nature, you have little other choice than to assume you hit the right initial seed, because it would be slow and painful to narrow down what you did hit if you missed. 
+Just like you would for initial seed RNG, take a list of Egg PIDs from your initial seed (not your Reseed), save it to txt, paste it in **Copy and Paste Here**, and move the PID Column to **IRNG Tracer**. Once you do that, you'll need to tell the tracer what your RNG was via signatures, with one key difference. 
+You need to add a reseed to the beginning, so it would look something like this.
+
+![image](https://user-images.githubusercontent.com/86489014/134823427-ca074989-13eb-400f-84c0-24cc1600a963.png)
+
+You (probably) only did 1 reseed, but if you were doing a more complex hybrid RNG, you might use multiple reseeds to advance multiples of 308 frames, rather than just 192 for a blank connect. As for the other connections you did, Below is the table with each signature. 
+
+| Connection Type                                 | Signature |   |
+|-------------------------------------------------|-----------|---|
+| Full Connect A                                  | F(A)      |   |
+| Full Connect B                                  | F(B)      |   |
+| Full Connect C                                  | F(C)      |   |
+| Blank Connect (Receive Gift)                    | B(G)      |   |
+| Blank Connect (Return From Stroll)              | B(R)      |   |
+| Partial Connect (Receive Gift  3 Pokemon)       | PG(3)     |   |
+| Partial Connect (Receive Gift  2 Pokemon)       | PG(2)     |   |
+| Partial Connect (Receive Gift  1 Pokemon)       | PG(1)     |   |
+| Partial Connect (Return From  Stroll 5 Pokemon) | PR(5)     |   |
+| Partial Connect (Return From  Stroll 4 Pokemon) | PR(4)     |   |
+| Partial Connect (Return From  Stroll 3 Pokemon) | PR(3)     |   |
+| Partial Connect (Return From  Stroll 2 Pokemon) | PR(2)     |   |
+| Partial Connect (Return From  Stroll 1 Pokemon) | PR(1)     |   |
+| Reseed                                          | R         |   |
+
+Other than that, the process of filtering by offset, checking off the boxes to reach your frame, and seeing where and when you got offset is identical to normal, though the reseed itself can be a +4 or a -4, on rare occasions, so it should just be a matter of determining what kind of offset you hit, and accounting that possibility in the future. 
+There are no Reseed exclusive methods to getting the upper hand on offsets, so that's about all there is to know about reseed RNG. 
