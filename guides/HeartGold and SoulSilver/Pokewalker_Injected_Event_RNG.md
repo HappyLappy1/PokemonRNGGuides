@@ -66,10 +66,25 @@ PSV'(PID) = ((PID >> 16) ^ (PID & 0xFFFF)),  TSV' = (TID ^ SID)
 The difference between “PSV” and “TSV”  is then added to the upper half of the PID, making the pokemon shiny without changing gender. However, nature is changed in the reshinification process, in a way not predictable without knowing TID and SID beforehand. 
 Because the TID and SID are randomized by the Palm, it is difficult to RNG shiny Pokemon for nature or non-shiny events for PID, though getting quirky natured shinies is more than possible with a Palm and a CFWed 3DS. If you only care about IVs though, you can work with only a palm. 
 Knowing that, now is the time to decide if you want to RNG a shiny, or a nonshiny. Once you make that decion, it's target IV time!
+
 ### Part 1: Target IV Frame
 The process for doing IV frame finding is nearly identical to normal, and can contain a reseed, if you prefer an even IV frame. For the sake of this example, I will be aiming for this frame, which requires a reseed and a near-empty PC.
 
 ![image](https://user-images.githubusercontent.com/86489014/134826022-9a2e17e2-ab6f-4573-8df2-2a56681851ed.png)
 
-Yes, frame 982 is stupid high, but I have a few good reasons for choosing it, besides the fact that this staryu’s IVs will be perfect multiples of 5, the number of pokemon per connect. I actually completed this RNG, this is my 
+Yes, frame 982 is stupid high, but I have a few good reasons for choosing it, besides the fact that this staryu’s IVs will be perfect multiples of 5, the number of pokemon per connect. I actually completed this RNG recently using spindas (I used a normal Staryu with Method C and spinda verification)
+
+![image](https://user-images.githubusercontent.com/86489014/134826363-1a12e07d-faf2-4626-ac26-60990ebf46e8.png) ![image](https://user-images.githubusercontent.com/86489014/134826383-9c114d5d-47fe-4acf-b389-d6c6993a052e.png)
+
 Anyway, once you select your IV frame, open up your spreadsheet and paste in your frame count like so.
+
+![image](https://user-images.githubusercontent.com/86489014/134826443-888784cc-b0f7-43a8-a3af-91ee68889dfa.png)
+
+As you can see, **IRNG Min C** is not displaying. I did this to prevent people from choosing **Method C** without knowing what it entails, but it will be disabled by manually selecting Method “C” in **Method Override**.
+
+![image](https://user-images.githubusercontent.com/86489014/134826543-362880e4-5bd1-499d-b744-f37f9244c831.png)
+
+Directly next to **Method Override** is **Shiny Event**, which will convert the PIDs displayed into the PIDs of shiny event pokemon, if we knew what TID and SID the shiny would have. We don't get that information until after the pokemon is injected though,
+
+- How to account for retroactive TID/SID? Method B + Knowing it in advance (boring), Method C + Doing the blank connects after you have the event in hand (Risky) Is Method C really the best?
+
