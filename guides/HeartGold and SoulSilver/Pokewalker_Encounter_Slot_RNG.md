@@ -18,7 +18,7 @@ Note: This guide assumes that you have some knowledge of gen 4 retail RNG alread
 ## Introduction
 So, you’re planning to RNG your encounter slots? It’s not nearly as bad as normal walker RNG, don’t worry. As far as RNGing encounter slots go, you only really need to understand how Reseeds work. When the game starts a stroll, it resets the LCRNG, to a number equal to the time on the DS clock at that instant. This new seed is calculated as follows:
 ```
-Hours*3600+Minutes*60+Seconds
+seed = Hours x 3600 + Minutes x 60 + Seconds
 ```
 In other words, the current DS clock is converted to seconds, and that becomes the new seed. As a result, this 8 digit hexadecimal number can be between 0x00000000 and 0x0001517F. Once the seed is reset in this way, 3 frames are advanced. Frames 1, 2, and 3 are used to generate encounter slots A, B, and C, in that order. 
 Each enconter slot (A, B, and C) can be one of two pokemon, so you always have a 50% chance of getting the Pokemon you like. 
