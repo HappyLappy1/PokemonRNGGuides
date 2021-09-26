@@ -2,7 +2,7 @@
 title: 'Pokewalker Mini-TSV Finding Guide'
 description: 'A guide that describes the process for finding the Mini TSV of a save file, a value which can be used in place of SID, for pokewalker RNGs. Part 7 of the original guide.'
 slug: 'retail-minitsv-hgss-pokewalker'
-subCategory: 'Retail'
+subCategory: 'Pokewalker'
 ---
 ```
 Note: This guide uses aprijuice tech, so no RNG experience will be necessary, but you will need to be patient enough to walk or bike ~150,000+ steps in HGSS, which will be taxing. 
