@@ -2,7 +2,7 @@
 title: 'Injected Event Pokewalker RNG Guide'
 description: 'A guide explaining the process for RNGing event pokemon injected with external tools, and the use of injected spinda for Method C RNG. Essentially Parts 9 and 10 of the original guide.'
 slug: 'Injected-Event-Method-C-hgss-pokewalker'
-subCategory: 'Retail'
+subCategory: 'Pokewalker'
 ---
 
 ```
